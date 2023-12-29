@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .menu {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .formulario {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    background-color: #22131a;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

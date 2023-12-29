@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Tarefas</h1>
+    <div class="menu">
+      <button onclick="mostrarCadastro()">Registrar Tarefa</button>
+      <button onclick="mostrarBusca()">Buscar Tarefa</button>
+      <button onclick="exibirTodas()">Exibir Todas</button>
+      <button onclick="mostrarRemover()">Remover Tarefa</button>
+      <button onclick="mostrarConcluir()">Concluir Tarefa</button>
+      <button onclick="sairDoPrograma()">Sair</button>
+    </div>
+
+    <div id="cadastro" class="formulario" style="display: none;">
+      <h2>Registrar Tarefa</h2>
+      <input type="text" id="titulo" placeholder="Título">
+      <textarea id="descricao" placeholder="Descrição"></textarea>
+      <input type="text" id="prioridade" placeholder="Prioridade">
+      <button onclick="registrarTarefa()">Registrar</button>
+    </div>
+
+    <!-- Restante dos formulários e divs serão semelhantes ao de cadastro com suas funcionalidades específicas -->
+
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
